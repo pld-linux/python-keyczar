@@ -33,7 +33,7 @@ symmetric and asymmetric keys.
 rm -r python_keyczar.egg-info
 
 %build
-%{__python} setup.py build
+%py_build
 
 %if %{with tests}
 cd tests/keyczar_tests
@@ -42,10 +42,7 @@ PYTHONPATH=$PYTHONPATH:../../src/ ./alltests.py
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %py_postclean
 
