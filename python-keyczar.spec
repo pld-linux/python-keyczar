@@ -6,7 +6,7 @@
 Summary:	Toolkit for safe and simple cryptography
 Name:		python-%{module}
 Version:	0.71c
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Languages
 Source0:	http://keyczar.googlecode.com/files/%{name}-%{version}.tar.gz
