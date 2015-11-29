@@ -16,7 +16,7 @@ BuildRequires:	python-Crypto
 BuildRequires:	python-devel
 BuildRequires:	python-pyasn1
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-Crypto
 Requires:	python-pyasn1
 BuildArch:	noarch
