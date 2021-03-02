@@ -7,7 +7,7 @@ Summary:	Toolkit for safe and simple cryptography
 Summary(pl.UTF-8):	Zbiór narzędzi do bezpiecznej i prostej kryptografii
 Name:		python-%{module}
 Version:	0.716
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Languages/Python
 # github tarballs contain all bindings, regardless of tag kind...
