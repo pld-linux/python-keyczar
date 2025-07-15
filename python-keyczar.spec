@@ -45,7 +45,7 @@ asymetrycznymi.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %{__rm} -r python_keyczar.egg-info
 
